@@ -7,6 +7,7 @@ const initialState = {
     modalData:{open:false, modalTitle:'', task:{}},
 
 }
+
 export const reducer = (state = initialState, action) => {
     switch (action.type){
         case "GET_STATUSES":

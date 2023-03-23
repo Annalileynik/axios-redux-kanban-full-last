@@ -51,7 +51,6 @@ const Card = (props) => {
             </ul>
         </div>
     )
-        ;
 };
 const mapStateToProps = (state) => ({
     priorities: state.priorities,

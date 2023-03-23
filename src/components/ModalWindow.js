@@ -26,7 +26,6 @@ function ModalWindow(props) {
         }
     }
 
-
 useEffect(()=>{
     console.log("Hello open!")
 },[])

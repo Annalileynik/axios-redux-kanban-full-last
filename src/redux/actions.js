@@ -50,7 +50,6 @@ export const deleteTask = (id) => {
             .catch((err)=>
             alert('Server cannot delete task'))
     }}
-
 export const createTask = (createTasks) => {
     return(dispatch)=>{
         axios.post('https://expressjs-server.vercel.app/tasks', createTasks)
