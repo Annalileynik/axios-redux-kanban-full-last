@@ -4,8 +4,7 @@ const initialState = {
     statuses:[],
     priorities:[1,2,3,4,5,6,7,8,9,10],
     appName:"Kanban board",
-    modalData:{open:false, modalTitle:'', task:{}},
-
+    modalData:{open:false, modalTitle:'', task:{}}
 }
 
 export const reducer = (state = initialState, action) => {
