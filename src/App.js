@@ -36,7 +36,6 @@ function App(props) {
 const mapStateToProps = (state) => ({
     statuses: state.statuses,
     appName: state.appName,
-    tasks:state.tasks,
     modalIsOpen:state.modalData.open
 })
 const mapDispatchToProps = (dispatch) => ({

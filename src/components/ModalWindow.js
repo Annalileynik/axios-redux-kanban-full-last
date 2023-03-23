@@ -39,7 +39,7 @@ useEffect(()=>{
             <ModalHeader toggle={toggle}>{props.modalData.modalTitle}</ModalHeader>
             <ModalBody>
                 {props.modalData.modalTitle === "Delete Task" &&
-                    <div> Are you sure <b> {props.modalData.task.name} delete?</b></div>}
+                    <div> Are you sure <b> {props.modalData.task.name}</b> delete?</div>}
                 {(props.modalData.modalTitle === "Create Task" || props.modalData.modalTitle ==='Edit Task') &&
 
                     <div>
